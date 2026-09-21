@@ -34,6 +34,9 @@ def main():
     assert archive["creators"] == [{"name": "Fu, Zeyu"}]
     assert citation["title"] == archive["title"]
     assert citation["version"] == archive["version"]
+    assert citation.get("license") == "MIT"
+    assert str(archive.get("license", "")).lower() == "mit"
+    assert (ROOT / "LICENSE").is_file() and (ROOT / "NOTICE").is_file()
     commands = []
     if args.smoke:
         for path in sorted((ROOT / "scripts").glob("*.py")):

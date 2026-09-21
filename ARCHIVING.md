@@ -23,9 +23,9 @@ The archive bundle contains a checksum manifest. Source-study accession numbers,
 published specimen identifiers and mathematical dimensions are retained for
 reproducibility. Code and manuscript names describe their scientific functions.
 
-The license choice is not inferred from authorship. Until the author approves a
-distribution license, this is a release candidate and no license grant is
-represented in its citation metadata.
+Analysis code is licensed under MIT. Manuscripts, figures and source-study data
+are not covered by that grant; see `NOTICE`. Citation metadata record the MIT
+identifier for the software component only.
 
 The included draft uploader validates an archive without a network request:
 
@@ -33,12 +33,14 @@ The included draft uploader validates an archive without a network request:
 python3 archive_draft.py ../single-cell-wound-analysis-0.1.0.zip
 ```
 
-After the license is recorded, `--execute` creates or resumes a draft with an
-environment-provided `ZENODO_ACCESS_TOKEN`. `--sandbox` instead uses the test
-service and `ZENODO_SANDBOX_TOKEN`. The local state file preserves the deposition
+`--execute` creates or resumes a draft with an environment-provided
+`ZENODO_ACCESS_TOKEN`. `--sandbox` instead uses the test service and
+`ZENODO_SANDBOX_TOKEN`. The local state file preserves the deposition
 identifier so a resumed upload uses the same draft. Upload checksums are checked
 against the service response. The tool never calls the publication endpoint.
-A reserved DOI in a draft is distinct from a published, resolving DOI.
+A reserved DOI in a draft is distinct from a published, resolving DOI. If the
+GitHub repository is linked in the author's Zenodo account, a versioned GitHub
+release can create the same draft through that integration.
 
 Official guidance: [GitHub software citation](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-citation-files),
 [Zenodo software metadata](https://help.zenodo.org/docs/github/describe-software/),

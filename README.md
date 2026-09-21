@@ -1,8 +1,10 @@
 # Single-cell wound measurement and population dynamics
 
-Author: Zeyu Fu. Version: 0.1.0, release candidate.
+Author: Zeyu Fu. Version: 0.1.0.
 
-Repository: [single-cell-wound-analysis](https://github.com/PeterPonyu/single-cell-wound-analysis). The candidate is currently private pending the author's publication and license decision.
+Repository: [single-cell-wound-analysis](https://github.com/PeterPonyu/single-cell-wound-analysis).
+Analysis code is released under the MIT License. Manuscripts, figures and
+source-study data retain their respective rights; see [NOTICE](NOTICE).
 
 This software accompanies two studies of public wound single-cell data. The
 first asks whether a fibroblast-associated expression loading primarily tracks
@@ -66,4 +68,4 @@ figure or reorganized source file.
 [ARCHIVING.md](ARCHIVING.md) documents the archive procedure. `archive_draft.py`
 validates metadata and an archive offline by default, and can create or resume
 an authenticated Zenodo draft. Publishing is a separate author action in the
-archive interface. A distribution license remains to be specified by the author.
+archive interface. A DOI is recorded only after that published record exists.

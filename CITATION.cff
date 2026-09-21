@@ -6,6 +6,7 @@ authors:
   - family-names: Fu
     given-names: Zeyu
 version: 0.1.0
+license: MIT
 abstract: >-
   Reproducible analyses of cell-state abundance, patient-level measurement
   validity, and held-out population dynamics in public wound single-cell data.
