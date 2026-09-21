@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "Please cite this software when using the analyses or figure source data."
+type: software
+title: "Single-cell wound measurement and population dynamics"
+authors:
+  - family-names: Fu
+    given-names: Zeyu
+version: 0.1.0
+abstract: >-
+  Reproducible analyses of cell-state abundance, patient-level measurement
+  validity, and held-out population dynamics in public wound single-cell data.
+  The software accompanies two methodological studies and does not constitute
+  a clinically validated prognostic tool.
+keywords:
+  - single-cell transcriptomics
+  - wound healing
+  - measurement validity
+  - patient-level inference
+  - conditional flow matching
+repository-code: https://github.com/PeterPonyu/single-cell-wound-analysis

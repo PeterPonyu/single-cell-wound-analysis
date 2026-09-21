@@ -1,0 +1,25 @@
+{
+  "title": "Single-cell wound measurement and population dynamics",
+  "upload_type": "software",
+  "description": "Analysis software, manuscript sources, vector figures and numerical source data for studies of cell-state abundance, patient-level measurement validity and held-out population dynamics in public wound single-cell data. The analyses are methodological and do not establish clinical prognostic validation.",
+  "creators": [
+    {
+      "name": "Fu, Zeyu"
+    }
+  ],
+  "version": "0.1.0",
+  "keywords": [
+    "single-cell transcriptomics",
+    "wound healing",
+    "measurement validity",
+    "patient-level inference",
+    "conditional flow matching"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/PeterPonyu/single-cell-wound-analysis",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ]
+}
